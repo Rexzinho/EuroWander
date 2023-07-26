@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'MainFont';
+    background-color:#3D4E5E;
+}
+
+.ItensHeader{
+    background-color:rgb(118, 118, 255);
+}
+
+.HeaderItem:hover{
+    cursor:pointer;
+    size:80%;
+    transform:scale(0.9);
+}
+
+.HeaderItem{
+    transition:transform 0.2s;
+}
+
+header{
+    width:100%;
+    height:70px;
+    background-color:#3D4E5E;
+    color:white;
+    padding:0;
+    margin-top:0;
+    display:flex;
+    justify-content:center;    
+    align-items:center;  
+    justify-content:space-evenly; 
+}
+    .Logo img{
+        height:40px;
+        display:flex;
+    }
+
+h1{
+    font-family: 'LogoFont';
+    font-size:100px;
+    margin-left:15%;
+    margin-right:15%;
+    margin-top:5%;
+    text-indent:0px;
+}
+
+h2{
+    font-family: 'LogoFont';
+}
+
+h3{
+    font-size:40px;
+    font-family: 'LogoFont';
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.Icone img {
+    filter: invert(100%);
+    width:70%;
+    display:flex;
+}
+
+.Conteudo1, .Conteudo2, .Conteudo3 p{
+    text-indent:2em;
+    text-align:justify;
+}
+
+.Conteudo1{
+    display:flex;
+    width:100%;
+    height:400px;
+    background-color:#94BDE3;
+}
+    .Conteudo1Lado1{
+        width:45%;
+        height:100%;
+    }
+    .Conteudo1Lado2{
+        height:100%;
+        width:55%;
+        display:flex;
+        justify-content:center;    
+        align-items:center;    
+    }
+    .Conteudo1Lado1 p{
+        margin-left:15%;
+        margin-right:15%;
+    }
+    .Imagem1{
+        width:80%;
+        height:80%;
+        background-color:#D9D9D9;
+        border-radius:40px;
+        text-align:left;
+        background-image:url("Imagem1.jpg");
+        background-size:cover;
+    }
+    .Imagem1 p{
+        padding:20px; 
+    }
+    .Imagem p{
+        text-indent:0px;
+    }
+    .Imagem12{
+        width:80%;
+        height:80%;
+        background-color:#D9D9D9;
+        border-radius:40px;
+        text-align:left;
+        background-image:url("Logotipo.png");
+        background-size:cover;
+    }
+    .Imagem12 p{
+        padding:20px; 
+    }
+
+.Conteudo2{
+    width:100%;
+    background-color:#3D4E5E;
+}
+
+    .Conteudo2Lado1{
+        width:100%;
+        height:500px;
+        display:flex;
+        align-items:center; 
+        color:white;  
+    }
+    .Imagem2{
+        width:25%;
+        height:80%;
+        background-image:url("Imagem2.jpg");
+        background-size:cover;
+        margin-left:25%;
+        margin-right:3%;
+        border-radius:30px;
+        text-align:left;
+    }
+    .Imagem2 p{
+        padding:20px;
+        color:black;
+    }
+    .Text1{
+        margin-right:25%;
+        width:20%;
+        text-align:justify;
+    }
+    .Conteudo2Lado2{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        height:700px;
+        color:white;
+        justify-content:center;     
+    }
+    .Text2{
+        display:flex;
+        flex-direction:column;
+        margin-left:25%;
+        margin-right:25%;
+    }
+    .Text2 h3{
+        text-align:center;
+    }
+    .Text2 p{
+        text-align:justify;
+    }
+    .Imagem3{
+        background-color:#D9D9D9;
+        width:26%;
+        height:100%;
+        border-radius:35px;
+        text-align:right;
+    }
+    .Imagem3 p{
+        padding:20px;
+        color:black;
+    }
+    .Imagem31{
+        background-image:url("Imagem3.jpg");
+        background-size:cover;
+    }
+    .Imagem31 p{
+        color:white;
+    }
+    .Imagem32{
+        background-image:url("Imagem32.jpg");
+        background-size:cover;
+    }
+    .Imagem33{
+        background-image:url("Imagem33.jpg");
+        background-size:cover;
+    }
+    .Imagens{
+        margin-top:4%;
+        height:48%;
+        display:flex;
+        justify-content:space-evenly;
+        margin-left:14%;
+        margin-right:14%;
+    }
+    .Imagem12{
+        background-image:url("Imagem12.jpg");
+        background-size:cover;
+        text-align:right;
+        color:white;
+    }
+
+.Conteudo3 h2{
+    font-family: 'LogoFont';
+    font-size:100px;
+    margin-left:15%;
+    margin-right:15%;
+    margin-top:5%;
+    text-indent:0px;
+}
+
+.Postagem{
+    width:70%;
+    height:2303px;
+    background-color:#94BDE3;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:18px;
+}
+    .Postagem h2{
+        font-size:80px;
+    }
+    .PostagemText{
+        padding: 5%;
+        padding-left:10%;
+        text-align:justify;
+    }
+    .PostagemText p{
+        text-indent:3em;
+    }
+    .Imagem4{
+        width:100%;
+        height:380px;
+        background-image:url("Imagem4.jpg");
+        background-size:cover;
+        border-radius:40px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:40px;
+        margin-bottom:40px;
+    }
+    .Imagem4 p{
+        padding:20px;
+        text-indent:0px;
+    }
+    .PostagemText2{
+        display:flex;
+        justify-content:space-between;
+    }
+    .Imagem5{
+        width:60%;
+        height:450px;
+        background-image:url("Imagem5.jpg");
+        background-size:cover;
+        border-radius:40px;
+    }
+    .Imagem5 p{
+        padding:20px;
+        text-indent:0px;
+    }
+    .PostagemText2 p{
+        width:35%;
+    }
+
+.OutrasPostagens{
+    width:30%;
+    height:fit-content;
+    background-color:#3D4E5E;
+    border-top:solid white 3px;
+    color:white;
+    text-align:justify;
+}
+    .OutrasPostagens p{
+        font-size:14px;
+    }
+    .OutrasPostagens h4{
+        font-size:22px;
+    }
+    .Imagem6{
+        width:100%;
+        height:200px;
+        background-color:#D9D9D9;
+        border-radius:25px;
+    }
+    .Imagem61{
+        background-image:url("Imagem61.jpg");
+        background-size:cover;
+    }
+    .Imagem62{
+        background-image:url("Imagem62.jpg");
+        background-size:cover;
+    }
+    .Imagem63{
+        background-image:url("Imagem63.jpg");
+        background-size:cover;
+    }
+    .Imagem64{
+        background-image:url("Imagem64.jpg");
+        background-size:cover;
+    }
+    .PostagensText{
+        padding:8%;
+        padding-top:12%;
+        text-indent:2em;
+    }
+    .PostagensTitulo{
+        display:flex;
+        justify-content:space-between;
+    }
+
+.ConteudoPublicacoes{
+    display:flex;
+}
+
+.Comentarios{
+    width:100%;
+    height:1000px;
+    background-color:#3D4E5E;
+    color:white;
+    overflow-y:scroll;
+    border-top:#3D4E5E solid 6px;
+    border-bottom:#3D4E5E solid 6px;
+}
+    .Comentarios h3{
+        color:white;
+    }
+    .ComentariosText{
+        padding-left:10%;
+        padding-top:5%;
+        padding-right:5%;
+    }
+    .FotoUser{
+        width: 60px;
+        height:60px;
+        background-color:#D9D9D9;
+        border-radius:100%;
+    }
+    .UserName{
+        width:90%;
+        height:50px;
+        align-items:center;
+        display:flex;
+    }
+    .InfoUser{
+        display:flex;
+        justify-content:space-between;
+    }
+    .UserComment{
+        width:90%;
+        height:fit-content;
+        margin-left:10%;
+        text-align:justify;
+    }
+    .UserComment p{
+        font-size:15px;
+    }
+
+    .CommentThings{
+        width:90%;
+        height:40px;
+        margin-left:10%;
+        display:flex;
+    }
+    .Like{
+        width:25px;
+        height:25px;
+        margin-right:10px;
+    }
+    .DesLike{
+        width:25px;
+        height:25px;
+        margin-right:20px;
+    }
+    .Icone2 img {
+        filter: invert(100%);
+        width:25px;
+        height:25px;
+    }
+    .Responder{
+        width:200px;
+    }
+
+button{
+    width:80px;
+    border-radius:60px;
+    border:none;
+}
+button:hover{
+    transform:scale(0.9);
+    transition:transform 0.2s;
+}
+button:active{
+    opacity:70%;
+}
+.Icone2:hover{
+    transform:scale(0.9);
+    transition:transform 0.2s;
+}
+.Icone2:active{
+    opacity:70%;
+}
+
+.footer{
+    height:300px;
+    width:100%;
+    display:flex;
+    background-color:rgb(41, 41, 41);
+}
+    .footer1{
+        height:300px;
+        width:60%;
+    }
+    .footer2{
+        height:300px;
+        width:40%;
+    }
+    .footertext{
+        padding:55px;
+        color:white;
+        font-size:20px;
+    }
+    .Rede{
+        width:100%;
+        height:60px;
+        display:flex;
+        align-items:center;
+    }
+    .Rede img{
+        height:50px;
+        margin-right:20px;
+    }
+    .Rede img:hover{
+        transform:scale(0.9);
+        transition:transform 0.2s;
+    }
+    .Rede img:active{
+        opacity:70%;
+    }
+
+
+@font-face{
+    font-family: 'MainFont';
+    src: url('IstokWeb-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'LogoFont';
+    src: url('Lalezar-Regular.ttf') format('truetype');
+}
+
+::-webkit-scrollbar{
+    width:28px;
+    background-color:#3D4E5E;
+}
+
+::-webkit-scrollbar-thumb{
+    width:7px;
+    background-color:white;
+    background-size:cover;
+    border:solid #3D4E5E 10px;
+    border-radius:15px;
+
+}
